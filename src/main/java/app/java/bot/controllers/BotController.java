@@ -23,7 +23,7 @@ public class BotController {
     private final TelegramBot bot;
 
     public BotController() {
-        String botToken = "6777692992:AAHrfGiLBfDxuHpbNClBP3CFXileZM2zmPc";
+        String botToken = "BOT_TOKEN";
         bot = new TelegramBot(botToken);
 
         bot.setUpdatesListener(updates -> {
